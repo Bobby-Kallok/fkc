@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffcc;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #006699;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+     color: #99ccff;
+    
+  }
+  .navlink { display: flex; justify-content: center }
+  
+  body {
+    background-color: #ffffcc;
+    color:#006699;
+  }
+  
+  .main {
+    width: auto;
+   border: 15px #99ccff;
+   outline: 5px solid #006699; /* Second border */
+      outline-offset: 0px;
+    border-style: solid;
+    justify:center;
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+  }
+  h1{
+    font-size:30px;
+  }
+  p{
+    font-size:15px
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    color: #99ccff;
+  }
+  
+  
+  
+  .fa-youtube {
+    background: #006699;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #006699;
+    color: white;
+  }
+
+  .fa-spotify{
+    background: #006699;
+    color: white;
+  }
+  .fa-bandcamp{
+    background: #006699;
+    color: white;
+  }
+
+  .fa-apple{
+    background: #006699;
+    color: white;
+  }
+  hr{
+    color:#006699;
+   width: 70%;
+   margin-bottom: 50px;
+  }
+  .two-col{
+    column-count: 2;
+    column-gap: 0px;
+  }
+
+table {
+    width: 60%;
+   
+      
+    }
+  
+    a.subtle:link {
+      color: #006699;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a.subtle:visited {
+      color: #006699;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a.subtle:hover {
+      color: #99ccff;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a.subtle:active {
+      color: #006699;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    

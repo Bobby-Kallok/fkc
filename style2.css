@@ -1,3 +1,9 @@
+:root {
+
+  --font-family: "IM Fell French Canon";
+  --font-family-header: "IM Fell French Canon";
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -40,17 +46,39 @@ ul {
     justify:center;
     padding: auto;
     margin-top: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 40px;
   }
   h1{
-    font-size:30px;
+    font-size: 2vw;
+  }
+  h2{
+    font-size: 1.8vw;
+  }
+  h3{
+    font-size:1.2vw;
   }
   p{
-    font-size:15px
+    font-size:1vw
+  }
+  td{
+    font-size:1vw
+  }
+  th{
+    font-size:1vw
+  }
+  .im-fell-french-canon-regular {
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
+  .im-fell-french-canon-regular-italic {
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -126,4 +154,6 @@ table {
       background-color: transparent;
       text-decoration: none;
     }
-    
+    .illustration2{
+      outline: 5px solid #006699;
+    }

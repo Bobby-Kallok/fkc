@@ -14,7 +14,17 @@
   .item5{grid-area: 3 / span 2;}
   .item6{grid-area: 3 / span 2;}
 
-    @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 600px) {
+    div.topnav{
+        display: none;
+    }
+}
+    @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+   
+        @media only screen and (max-width: 600px) {
+            div.navlink{
+                display: none;
+            }
     .main{
       margin-left: 0%;
     margin-right: 0%;
@@ -80,6 +90,24 @@ height:auto;
     <li><a href="contactus.html">Contact</a></li>
   </div>
 </ul>
+
+<div class="topnav">
+    <center>
+    <a href="#home" class="active">Menu</a>
+    <div id="myLinks">
+        <a href="test.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="newvideo.html">Videos</a>
+        <a href="upcoming.html">Shows</a>
+          <a href="bio.html">Bio</a>
+          <a href="presskit.html">Press Kit</a>
+          <a href="contactus.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</center>
+  </div>
 
 <div class="main">
   <center>
@@ -185,3 +213,14 @@ src="https://www.youtube.com/embed/vlIeYiohpAs">
  
  </center>
      </footer>
+
+     <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>

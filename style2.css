@@ -222,3 +222,45 @@ table {
     text-align: center;
     margin:auto;
   }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #006699;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: #ffffcc;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #ffffcc;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  a.icon{
+    color: #006699;
+  }
+  
+  .topnav a:hover {
+    background-color: #006699;
+    color: black;
+  }
+  
+  .active {
+    background-color: #ffffcc;
+    color: #006699;
+  }
+  a.active{
+    color: #006699;
+  }

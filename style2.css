@@ -100,11 +100,14 @@ ul {
     font-weight: 400;
     font-style: italic;
   }
+  footer{
+    gap:0px;
+  }
   .fa {
     padding:15px;
     gap:0px;
     font-size: 30px;
-    width: 0px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;

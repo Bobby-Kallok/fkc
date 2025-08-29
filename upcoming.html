@@ -11,7 +11,59 @@ table {
     border-collapse: collapse;
       table-layout: fixed;
     }
-    
+    @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+   
+        @media only screen and (max-width: 600px) {
+    .main{
+      margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    }
+    .fa {
+    padding: 7px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  h1{
+    font-size: 18pt;
+  }
+  h2{
+    font-size: 18pt;
+  }
+  h3{
+    font-size:14pt
+  }
+  p{
+    font-size:14pt
+  }
+  td{
+    font-size:14pt
+  }
+  th{
+    font-size:14pt
+  }
+  .vidlarge{
+    width:auto;
+    height:auto;
+  }
+  .illustration{
+width:11%;
+height:6%
+  }
+  .illustration2{
+width:70%;
+height:auto;
+  }
+  
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 6;}
+  
+
+  }
    
     </style>
 <ul>
@@ -41,38 +93,34 @@ table {
  
   <h1>Upcoming Shows<h1>
     <hr>
-    <table>
-            
-            <tr>
-                <th>9/22 - Georgie's - Asbury Park<br>
+
+    <div class="grid-container">
+        <div class="item1">
+            <p>
+            9/22 - Georgie's - Asbury Park<br>
          
                     10/4 - ???<br>
                     10/17 - Asbury Book Co-op - Asbury Park<br>
-                    </th>
-                <th><img
-                    src="1.jpg"
-                    class="illustration2"
-                    alt="king clark"
-                    width="100%"
-                    height="auto"
-                    
-                 /></th>
-            </tr>
-    </table>
+            </p>
+        </div>
+        <div class="item2">
+            <img
+            src="1.jpg"
+            class="illustration2"
+            alt="king clark"
+            width="100%"
+            height="auto"/>
+        </div>
+    </div>
+
     <h1>Past Shows<h1>
         <hr>
-        <table>
-                
-                <tr>
-                    <th><img
-                        src="IMG_4261.jpeg"
-                        class="illustration2"
-                        alt="king clark"
-                        width="100%"
-                        height="auto"
-                        
-                     /></th>
-                    <th>11/20/24 - Cafe Artiste - Ocean Grove<br>
+        
+
+        <div class="grid-container">
+            <div class="item1">
+                <p>
+                11/20/24 - Cafe Artiste - Ocean Grove<br>
                         11/22/24 - The Asbury - Asbury Park<br>
                         
                        
@@ -101,9 +149,21 @@ table {
                         7/5 - 3BR - Keyport<br>
                         7/26 - Pino's - Highland Park<br>
                         7/30 - Asbury Book Co-op Nashbury Songwriter Circle - Asbury Park<br>
-                        8/2 - Wild Air Beerworks - Asbury Park <br></th>
-                </tr>
-        </table>
+                        8/2 - Wild Air Beerworks - Asbury Park <br>
+                        
+                    </p>
+            </div>
+            <div class="item2">
+                <img
+                        src="IMG_4261.jpeg"
+                        class="illustration2"
+                        alt="king clark"
+                        width="100%"
+                        height="auto"
+                        
+                     />
+            </div>
+        </div>
  
 
     

@@ -11,6 +11,57 @@ table {
     border-collapse: collapse;
     table-layout: fixed;
     }
+    @media only screen and (max-width: 600px) {
+    .main{
+      margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    }
+    .fa {
+    padding: 7px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  h1{
+    font-size: 18pt;
+  }
+  h2{
+    font-size: 18pt;
+  }
+  h3{
+    font-size:14pt
+  }
+  p{
+    font-size:14pt
+  }
+  td{
+    font-size:14pt
+  }
+  th{
+    font-size:14pt
+  }
+  .vidlarge{
+    width:auto;
+    height:auto;
+  }
+  .illustration{
+width:11%;
+height:6%
+  }
+  .illustration2{
+width:70%;
+height:auto;
+  }
+  
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 6;}
+  
+
+  }
    
     </style>
 <ul>
@@ -42,9 +93,9 @@ table {
     <hr>
     <div class="">
 
-        <table>
-            <tr>
-                <th>
+    
+            <div class="grid-container">
+                <div class="item1">
                     <p>
                         For booking info, questions, or if you just want to say 'hi' <br>feel free to contact us at the following!
                      <br>
@@ -56,19 +107,18 @@ table {
                        <br>
                        We are booking full band, partial band, and solo shows throughout the year so feel free to reach out!
           </p>             
-                </th>
-                <th>
+                </div>
+                <div class="item2">
                     <img
-          src="fkc logo blob.png"
-          class="illustration2"
-          alt="king clark"
-          width="100%"
-          height="auto"
-          
-       />
-                </th>
-            </tr>
-            
+                    src="fkc logo blob.png"
+                    class="illustration2"
+                    alt="king clark"
+                    width="100%"
+                    height="auto"
+                    
+                 />
+                </div>
+            </div>
 
 </div>
            

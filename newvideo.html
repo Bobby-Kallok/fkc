@@ -6,15 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 <style>
-table {
-    width: 60%;
-    border-collapse: collapse;
-      
-    }
-    td, th {  
-      border: 2px solid #006699;
 
+    .item1 {grid-area: 1 / span 2;}
+  .item2 {grid-area: 1 / span 2;}
+  .item3{grid-area: 2 / span 2;}
+  .item4{grid-area: 2 / span 2;}
+  .item5{grid-area: 3 / span 2;}
+  .item6{grid-area: 3 / span 2;}
+
+    @media only screen and (max-width: 600px) {
+    .main{
+      margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10px;
     }
+    .fa {
+    padding: 7px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  h1{
+    font-size: 18pt;
+  }
+  h2{
+    font-size: 18pt;
+  }
+  h3{
+    font-size:14pt
+  }
+  p{
+    font-size:14pt
+  }
+  td{
+    font-size:14pt
+  }
+  th{
+    font-size:14pt
+  }
+  .vid{
+    width:auto;
+    height:auto;
+  }
+  .illustration{
+width:11%;
+height:6%
+  }
+  .illustration3{
+width:70%;
+height:auto;
+  }
+  
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 6;}
+  .item3{grid-area: 4 / span 6;}
+  .item4{grid-area: 3 / span 6;}
+  .item5{grid-area: 5 / span 6;}
+  .item6{grid-area: 6 / span 6;}
+
+  }
     </style>
 <ul>
   <div class="navlink">
@@ -43,57 +96,77 @@ table {
  
   <h1>Music Videos<h1>
     <hr>
-    <table>
-                <th> <iframe style="border: 0; width:400px; height: 225px;"
+    <div class="grid-container">
+        <div class="item1">
+            <h1>Sitting Out On The Patio Music Video</h1>
+        </div>
+        <div class="item2">
+            <iframe class='vid' width="400px;" height="225px;"
                     src="https://youtube.com/embed/NCosec-638k">
-                    </iframe></th>
-                <th><h1>Sitting Out On The Patio Music Video</h1></th>
-            </tr>
-            <tr>
-                <th><h2>Summer's Gone Visualizer</h2></th>
-                <th><iframe style="border: 0; width:400px; height: 225px;"
+                    </iframe>
+        </div>
+
+        <div class="item3">
+            <iframe class='vid' width="400px;" height="225px;"
                     src="https://www.youtube.com/embed/-TPfHIEUlko">
-                    </iframe></th>
-            </tr>
-            <tr>
-                <th><iframe style="border: 0; width:400px; height: 225px;"
+                    </iframe>
+        </div>
+        <div class="item4">
+            <h2>Summer's Gone Visualizer</h2>
+        </div>
+       
+        <div class="item5">
+            <h1>Did I Lock The Door? Music Video</h1>
+        </div>
+        <div class="item6">
+            <iframe class='vid' width="400px;" height="225px;"
                     src="https://youtube.com/embed/OzC3-7LZN9g">
-                    </iframe></th>
-                <th><h1>Did I Lock The Door? Music Video</h1></th>
-            </tr>
-    </table>
+                    </iframe>
+        </div>
+    </div>
    
     <h1>Live Videos</h1>
     <hr>
-<table>
-    <tr>
-<th>  <iframe style="border: 0; width:400px; height: 225px;"
+
+<div class="grid-container">
+    <div class="item1">
+        <h1>Tired and Wired at WTSR Underground</h1>
+    </div>
+    <div class="item2">
+        <iframe class='vid' width="400px;" height="225px;"
 src="https://www.youtube.com/embed/vlIeYiohpAs">
-</iframe> </th>
-<th><h1>Tired and Wired at WTSR Underground</h1></th>
-</tr>
-<tr>
-    <th>  <h1>Missed You At The Party at WTSR Underground</h1></th>
-    <th><iframe style="border: 0; width:400px; height: 225px;"
+</iframe>
+    </div>
+    <div class="item3">
+        <iframe class='vid' width="400px;" height="225px;"
         src="https://www.youtube.com/embed/jmwXlP_XDiU">
-        </iframe> </th>
-    </tr>
-    <tr>
-        <th>  <iframe style="border: 0; width:400px; height: 225px;"
+        </iframe>
+    </div>
+    <div class="item4">
+        <h1>Missed You At The Party at WTSR Underground</h1>
+    </div>
+   
+    <div class="item5">
+        <h1>Tired and Wired at Asbury Book Co-op for Tiny Desk Contest 2025</h1>
+    </div>
+    <div class="item6">
+        <iframe class='vid' width="400px;" height="225px;"
         src="https://www.youtube.com/embed/TTiKV3s9Vxs">
-        </iframe> </th>
-        <th><h1>Tired and Wired at Asbury Book Co-op for Tiny Desk Contest 2025</h1></th>
-        </tr>
-</table>
+        </iframe>
+    </div>
+</div>
         <h1>Other Videos</h1>
         <hr>
-        <table>
-            <tr>
-      <th>  <iframe style="border: 0; width:400px; height: 225px;"
+    <div class="grid-container">
+        <div class="item1">
+            <h1>The Making of Five Dollar Yacht Club</h1>
+        </div>
+        <div class="item2">
+            <iframe class='vid' width="400px;" height="225px;"
         src="https://www.youtube.com/embed/2XtgI79_aPI">
-        </iframe> </th>
-        <th><h1>The Making of Five Dollar Yacht Club</h1></th>
-    </table>
+        </iframe>
+        </div>
+    </div>
 <div class="subtle">
     <p>Check out our <a class="subtle" href="https://www.youtube.com/@KingClarkNJ
         ">YouTube</a> Channel for more</p>

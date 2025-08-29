@@ -11,6 +11,70 @@ table {
     border-collapse: collapse;
       
     }
+    .item1 {grid-area: 1 / span 2;}
+  .item2 {grid-area: 1 / span 2;}
+  .item3{grid-area: 2 / span 2;}
+  .item4{grid-area: 2 / span 2;}
+  .item5{grid-area: 3 / span 2;}
+  .item6{grid-area: 3 / span 2;}
+
+    @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+   
+        @media only screen and (max-width: 600px) {
+    .main{
+      margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10px;
+    }
+    .fa {
+    padding: 7px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  h1{
+    font-size: 18pt;
+  }
+  h2{
+    font-size: 18pt;
+  }
+  h3{
+    font-size:14pt
+  }
+  p{
+    font-size:14pt
+  }
+  td{
+    font-size:14pt
+  }
+  th{
+    font-size:14pt
+  }
+  .vidlarge{
+    width:auto;
+    height:auto;
+  }
+  .illustration{
+width:11%;
+height:6%
+  }
+  .illustration2{
+width:70%;
+height:auto;
+  }
+  
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 6;}
+  .item3{grid-area: 4 / span 6;}
+  .item4{grid-area: 3 / span 6;}
+  .item5{grid-area: 5 / span 6;}
+  .item6{grid-area: 6 / span 6;}
+  
+
+  }
    
     </style>
 <ul>
@@ -42,13 +106,12 @@ table {
     <hr>
     <div class="bio">
 
-        <table>
-            <tr>
-                <th>
-                    Forever King Clark is an indie rock band from Asbury Park, NJ.  Inspired by the home recordings of artists such as Mac DeMarco, Unknown Mortal Orchestra, and Alex G band-leader Bobby Kallok began working on similar bedroom-style indie recordings while in his dorm at Rowan University. Initially Forever King Clark was a solo recording project but after graduating Amy Evans and JM Cooks were added on bass and drums.
-                </th>
-                <th>
-                    <img
+        <div class="grid-container">
+            <div class="item1">
+<p> Forever King Clark is an indie rock band from Asbury Park, NJ.  Inspired by the home recordings of artists such as Mac DeMarco, Unknown Mortal Orchestra, and Alex G band-leader Bobby Kallok began working on similar bedroom-style indie recordings while in his dorm at Rowan University. Initially Forever King Clark was a solo recording project but after graduating Amy Evans and JM Cooks were added on bass and drums.</p>
+            </div>
+            <div class="item2">
+                <img
           src="fkc logo blob.png"
           class="illustration2"
           alt="king clark"
@@ -56,32 +119,10 @@ table {
           height="auto"
           
        />
-                </th>
-            </tr>
+            </div>
 
-            <tr>
-                <th>
-                    <img
-                    src="fkc logo blob.png"
-                    class="illustration2"
-                    alt="king clark"
-                    width="100"
-                    height="auto"
-                    
-                 />
-                </th>
-                <th>
-                    In 2024 back in Asbury Park the band decided to take a break from home recording and go to Lakehouse Studios to record their first singles as a band. Around this time guitarist Rob Deselich was added to help fill out the sound on "Vacation" and "Norway". Following this the band played their first shows around Asbury Park, Monmouth University, and Brooklyn culminating in the invitation to record a song and perform at Shore Points Record's Local Summer Compilation album. In anticipation of that performance they decided to invite Dan Baumgarten on keys to help further expand the sound and would continue to make use of his talents at Telegraph Hill Record's What A Wonderful Year Festival.
-                </th>
-            </tr>
-
-            <tr>
-                <th>
-                    Going forward into 2025 the band went to DIMM Studios in Freehold, NJ to record their debut EP, "Five Dollar Yacht Club". Around this time Rob Deselich left the band to pursue his own musical projects and live event company. Shortly afterwards the band embarked on one of their highest profile shows as they performed at the National Cherry Blossom Festival in Washington D.C. 
-                    Looking towards the future Forever King Clark is working towards recordings aimed for release in Winter of 2025 and Summer.  After spending the last few years recording local studios the band intends on getting back to the analog DIY recording that initially influenced the band. 
-                </th>
-                <th>
-                    <img
+            <div class="item3">
+                <img
           src="fkc logo blob.png"
           class="illustration2"
           alt="king clark"
@@ -89,9 +130,28 @@ table {
           height="auto"
           
        />
-                </th>
-            </tr>
-        </table>
+            </div>
+            <div class="item4">
+                <p>In 2024 back in Asbury Park the band decided to take a break from home recording and go to Lakehouse Studios to record their first singles as a band. Around this time guitarist Rob Deselich was added to help fill out the sound on "Vacation" and "Norway". Following this the band played their first shows around Asbury Park, Monmouth University, and Brooklyn culminating in the invitation to record a song and perform at Shore Points Record's Local Summer Compilation album. In anticipation of that performance they decided to invite Dan Baumgarten on keys to help further expand the sound and would continue to make use of his talents at Telegraph Hill Record's What A Wonderful Year Festival.</p>
+            </div>
+
+         
+         
+            <div class="item5">
+                <p>Going forward into 2025 the band went to DIMM Studios in Freehold, NJ to record their debut EP, "Five Dollar Yacht Club". Around this time Rob Deselich left the band to pursue his own musical projects and live event company. Shortly afterwards the band embarked on one of their highest profile shows as they performed at the National Cherry Blossom Festival in Washington D.C. 
+                    Looking towards the future Forever King Clark is working towards recordings aimed for release in Winter of 2025 and Summer.  After spending the last few years recording local studios the band intends on getting back to the analog DIY recording that initially influenced the band. </p>
+            </div>
+            <div class="item6">
+                <img
+          src="fkc logo blob.png"
+          class="illustration2"
+          alt="king clark"
+          width="100%"
+          height="auto"
+          
+       />
+            </div>
+        </div>
 
 </div>
            
